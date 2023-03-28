@@ -1,0 +1,36 @@
+{
+  "name": "template.hheimerd.io",
+  "displayName": "HelloCordovaTemplate",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "run:android": "vite build && cordova run android",
+    "run:browser": "vite build && cordova run browser",
+    "dev": "vite"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "cordova-android": "^10.1.2",
+    "cordova-browser": "^6.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  }
+}
